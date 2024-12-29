@@ -8,6 +8,8 @@ public class QueueExamples {
   public static void main(String[] args) {
 
     Queue<String> queue = new ArrayDeque<>();
+    // Queue<String> queue = new LinkedList<>();
+    // Queue<String> queue = new PriorityQueue<>();
     queue.offer("Person One");
     queue.offer("Person Two");
     queue.offer("Person Three");
@@ -15,7 +17,6 @@ public class QueueExamples {
     System.out.println(queue.peek());
     queue.poll();
     System.out.println(queue);
-    
   }
 
 }
